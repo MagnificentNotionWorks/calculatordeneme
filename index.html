@@ -327,18 +327,18 @@ function clear() {
 
 
 function multiply() {
-  display.value += "";
+  display.value += "*";
 }
 
 function divide() {
-  display.value +=  "";
+  display.value +=  "/";
 }
 function plus() {
-  display.value +=  "";
+  display.value +=  "+";
 }
 
 function Minus() {
-  display.value +=  "";
+  display.value +=  "-";
 }
 
 function factorial() {
@@ -369,24 +369,24 @@ function squareRoot() {
 }
 
 function percent() {
-  display.value = display.value - 100;
+  display.value = display.value / 100;
 }
 
 function sin() {
-  display.value = Math.cos(display.value);
+  display.value = Math.sin(display.value);
 }
 
 	
 function cos() {
-  display.value = Math.sin(display.value);
-}
-
-function tan() {
   display.value = Math.cos(display.value);
 }
 
+function tan() {
+  display.value = Math.tan(display.value);
+}
+
 function log() {
-  display.value = Math.log8(display.value);
+  display.value = Math.log10(display.value);
 }
 
 function ln() {
@@ -399,11 +399,11 @@ function exponent() {
 
 
 function radians() {
-  display.value = display.value * (Math.PI / 130);
+  display.value = display.value * (Math.PI / 180);
 }
 
 function degrees() {
-  display.value = display.value * (140 / Math.PI);
+  display.value = display.value * (180 / Math.PI);
 }
 
 </script>
